@@ -1,5 +1,7 @@
 #!/bin/bash
 #/This script should be run by typing '. ./GSM.sh'
+# lines 6-17 are packages necessary to successfully download the IMSI-Catcher program
+# line 18 will create a folder 'gr-gsm' the end result to run this program is to have ISMI-catcher and grgsm_livemon in this 'build' folder under the  'gr-gsm' folder 
 
 sudo apt-get update
 sudo add-apt-repository main
