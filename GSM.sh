@@ -1,8 +1,8 @@
 #!/bin/bash
 #/This script should be run by typing '. ./GSM.sh'
-# lines 6-17 are packages necessary to successfully download the IMSI-Catcher program
+# lines 6-17 are packages necessary to successfully download the IMSI-Catcher program. We created this repository so that you will not have to type each line into the terminal. 
 # line 18 will create a folder 'gr-gsm' the end result to run this program is to have ISMI-catcher and grgsm_livemon in this 'build' folder under the  'gr-gsm' folder 
-
+# when prompted you may have to type "y" into the terminal for it to continue downloading. If the output error says "Permission Denied" add "sudo" if sudo isn't already at the front of the command. Otherwise you shouldn't have any output errors for the program.
 sudo apt-get update
 sudo add-apt-repository main
 sudo add-apt-repository universe
